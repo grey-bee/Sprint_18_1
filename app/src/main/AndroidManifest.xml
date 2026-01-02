@@ -12,19 +12,25 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sprint_18_1">
         <activity
-            android:name=".Screen3Activity"
-            android:exported="true" />
-        <activity
-            android:name=".Screen2Activity"
-            android:exported="true" />
-        <activity
-            android:name=".Screen1Activity"
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".test_screens.Screen3Activity"
+            android:exported="true" />
+        <activity
+            android:name=".test_screens.Screen2Activity"
+            android:exported="true" />
+        <activity
+            android:name=".test_screens.Screen1Activity"
+            android:exported="true">
+
         </activity>
     </application>
 

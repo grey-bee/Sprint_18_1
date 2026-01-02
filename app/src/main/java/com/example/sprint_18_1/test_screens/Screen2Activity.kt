@@ -1,4 +1,4 @@
-package com.example.sprint_18_1
+package com.example.sprint_18_1.test_screens
 
 import android.content.Intent
 import android.os.Bundle
@@ -6,6 +6,7 @@ import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import com.example.sprint_18_1.R
 
 class Screen2Activity : AppCompatActivity(R.layout.activity_screen_2) {
 

@@ -8,7 +8,9 @@ android {
     compileSdk {
         version = release(36)
     }
-
+    buildFeatures {
+        viewBinding = true
+    }
     defaultConfig {
         applicationId = "com.example.sprint_18_1"
         minSdk = 24
@@ -38,6 +40,7 @@ android {
 }
 
 dependencies {
+    implementation(libs.androidx.fragment.ktx)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)

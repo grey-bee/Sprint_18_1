@@ -5,9 +5,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".Screen3Activity">
+    tools:context=".test_screens.Screen3Activity">
 
-    <TextView
+<TextView
         android:id="@+id/screen3Title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -31,11 +31,11 @@
         android:text="Back" />
 
     <Button
-        android:id="@+id/screen3ButtonToScreen3"
+        android:id="@+id/screen3ButtonToScreen1WithClear"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="16dp"
         android:layout_marginTop="10dp"
-        android:text="Open Screen 3" />
+        android:text="Back to Screen 1" />
 
 </LinearLayout>

@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".Screen2Activity">
+    tools:context=".test_screens.Screen2Activity">
 
     <TextView
         android:id="@+id/screen2Title"
