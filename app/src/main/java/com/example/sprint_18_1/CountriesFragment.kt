@@ -5,10 +5,11 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.example.sprint_18_1.databinding.FragmentCountriesBinding
 
 class CountriesFragment : Fragment() {
 
-    private val countries = "Austria,Belarus,Bulgaria,Cambodia,Cameroon,Costa Rica")
+    private val countries = "Austria,Belarus,Bulgaria,Cambodia,Cameroon,Costa Rica"
 
     private var _binding: FragmentCountriesBinding? = null
     private val binding get() = _binding!!
